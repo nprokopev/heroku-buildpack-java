@@ -3,6 +3,8 @@
 
 BUILD_DIR=$1
 
+echo "this is the port: "$PORT
+
 cat <<EOF
 ---
 config_vars:
