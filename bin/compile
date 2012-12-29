@@ -106,6 +106,4 @@ if [ "true" == $KEEP_M2_CACHE ]; then
   done
 fi
 
-echo "here's the full env------------------------------- "
-env
 logger -p user.notice -t "slugc[$$]" "language_pack_java java_compile_end $LOGGER_FLAGS"
